@@ -6,7 +6,14 @@ package com.ebanma.cloud.msg.api.model.common;
  */
 public enum DisplayEnum {
 
+    /**
+     * 气泡展示
+     */
     BUBBLE("气泡展示"),
+
+    /**
+     * 卡片展示
+     */
     CARD("卡片展示"),
     ;
 

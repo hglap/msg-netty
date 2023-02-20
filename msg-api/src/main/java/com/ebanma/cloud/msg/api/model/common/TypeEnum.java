@@ -6,11 +6,25 @@ package com.ebanma.cloud.msg.api.model.common;
  */
 public enum TypeEnum {
 
+    /**
+     * 文本类型消息
+     */
     TEXT("文本"),
+
+    /**
+     * 图片类型消息
+     */
     IMG("图片"),
+
+    /**
+     * 视频类型消息
+     */
     VIDEO("视频"),
-    MIX("混合"),
-    ;
+
+    /**
+     * 混合类型消息
+     */
+    MIX("混合");
 
     private String code;
 

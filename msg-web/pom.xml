@@ -26,7 +26,16 @@
             <artifactId>msg-dao</artifactId>
             <version>${project.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.ebanma.cloud</groupId>
+            <artifactId>msg-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.ebanma.cloud</groupId>
+            <artifactId>user-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
-
 </project>

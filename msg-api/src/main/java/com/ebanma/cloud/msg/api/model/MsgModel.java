@@ -2,12 +2,14 @@ package com.ebanma.cloud.msg.api.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author 黄贵龙
  * @version $ Id: MsgModel, v 0.1 2023/02/15 8:37 banma- Exp $
  */
 @Data
-public class MsgModel {
+public class MsgModel implements Serializable {
 
     private String topic;
 
