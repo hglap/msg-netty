@@ -13,7 +13,7 @@ import java.io.IOException;
 
 /**
  * @author 黄贵龙
- * @version $ Id: ClientDTO, v 0.1 2023/02/15 13:46 banma- Exp $
+ * @version $ Id: NettyHandler, v 0.1 2023/02/15 13:46 banma- Exp $
  */
 @Slf4j
 @ChannelHandler.Sharable

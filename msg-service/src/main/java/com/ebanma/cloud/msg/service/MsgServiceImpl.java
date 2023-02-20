@@ -15,7 +15,8 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
+ * @author 黄贵龙
+ * @version $ Id: MsgServiceImpl, v 0.1 2023/02/15 13:46 banma- Exp $
  */
 @Component
 @DubboService

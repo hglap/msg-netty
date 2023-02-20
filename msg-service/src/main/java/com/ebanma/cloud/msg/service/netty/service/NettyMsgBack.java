@@ -15,8 +15,9 @@ import java.util.stream.Collectors;
 
 /**
  * @author 黄贵龙
- * @version $ Id: ClientDTO, v 0.1 2023/02/15 13:46 banma- Exp $
+ * @version $ Id: NettyMsgBack, v 0.1 2023/02/15 13:46 banma- Exp $
  */
+
 @Slf4j
 public class NettyMsgBack {
 
