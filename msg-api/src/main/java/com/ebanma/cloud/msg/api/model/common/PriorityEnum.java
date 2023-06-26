@@ -41,4 +41,22 @@ public enum PriorityEnum {
         return code;
     }
 
+    /**
+     * 根据类型找枚举
+     *
+     * @param code
+     * @return
+     */
+    public static PriorityEnum getByCode(int code) {
+        if (code == 0) {
+            return null;
+        }
+        for (PriorityEnum e : values()) {
+            if (e.getCode() == code) {
+                return e;
+            }
+        }
+        return null;
+    }
+
 }
